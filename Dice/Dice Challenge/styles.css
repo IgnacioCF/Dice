@@ -1,0 +1,126 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice1 {
+  text-align: center;
+  display: inline-block;
+
+}
+.dice2 {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #4c124a;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #cc4eb1;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 60%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.btm1{
+  background-color: rgb(56, 168, 39);
+  border-radius: 50%;
+  block-size: 5cqmax;
+  font-family: 'Indie Flower', cursive; 
+  font-size: large; 
+  font-weight: bolder;
+  display: inline-block;
+
+}
+
+.btm1:hover{
+  background-color: rgb(212, 82, 35);
+  color: black;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+
+}
+
+
+.btm2{
+    background-color: aqua;
+    border-radius: 50%;
+    block-size: 5cqmax;
+    font-family: 'Indie Flower', cursive; 
+    font-size: large; 
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.btm2:hover{
+  background-color: rgb(162, 51, 174);
+  color: black;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  
+
+}
+
+.btm3 {
+  opacity: 0.6;
+  cursor: not-allowed;
+  position: fixed;
+
+}
+
+.btm4:hover{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+  }
+
+  .webpage{
+    position: absolute;
+    margin: auto;
+    border: #232931;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .a7{
+
+    opacity: 0.6;
+    font-size: 60%  ;
+
+  }
+  .a7:hover{
+    color: #f4511e;
+    background-color: black;
+  }
